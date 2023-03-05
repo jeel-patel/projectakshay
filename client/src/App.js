@@ -1,28 +1,5 @@
 import React from "react";
-import { Switch, Route, Router, Routes, BrowserRouter } from "react-router-dom";
-import NavigationBar from './component/NavigationBar';
-import AdminNavigationBar from './component/AdminNavigationBar';
-import Home from "./Home"
-import Categories from "./Categories"
-import About from "./About"
-import Contact from "./Contact"
-import Logout from "./Logout"
-import Login from "./Login"
-import Register from "./Register"
-import AddCycle from "./admin/AddCycle"
-import ErrorPage from "./ErrorPage"
-import Footer from "./Footer";
-import ShowItem from "./component/ShowItem";
-import Wishlist from "./Wishlist";
-import UpdateCycle from "./admin/UpdateCycle";
-import ShowFeedback from "./admin/ShowFeedback";
-import ForgotPassword from "./ForgotPassword";
-import RemoveItem from "./admin/RemoveItem";
-import ShowOrders from "./component/ShowOrders";
-import PreviousOrders from "./component/PreviousOrders";
-import LiveOrders from "./admin/LiveOrders";
-import DeliveredOrder from "./admin/DeliveredOrder";
-import { createBrowserHistory } from "history";
+import {  Route, Routes, BrowserRouter } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import ResponsiveAppBar from "./component/NavigationBar1";
 import Home1 from './Home1'
@@ -39,31 +16,6 @@ import Payment1 from "./Payment1";
 const ADMIN_EMAIL = "19ituos082@ddu.ac.in"
 const AdminUrls = [{url:'/Home', title:"Home"}, {url:'/admin/updateCycle', title: "UpdateCycle"}, {url:'/admin/feedbacks', title:"Feedbacks"}, {url:'/admin/removeitem', title: "RemoveItem"}, {url:'/admin/liveOrders',title:"LiveOrders"}, {url:'/admin/deliveredOrders', title:"DeliveredOrders"}]
 const UserUrls = [{url: '/categories', title: 'Categories'}, {url: '/showItem', title: 'ShowItem'}, {url: '/wishlist', title: 'WishList'}, {url: '/showOrders', title: 'ShowOrders'}, {url: '/previousOrders', title: 'PreviousOrders'},{url: '/about', title: 'About'},{url: '/contact', title : 'Contact'}, {url: '/payment', title: 'Payment'}]
-
-function Profile()
-{
-  return <>Profile</>
-}
-
-function Profile1()
-{
-  return (
-    <div
-      style={{"backgroundColor" : "white", "height" : "100px"}}
-    >
-      Hello world
-    </div>
-  )
-}
-
-function UserRoutes()
-{
-  return (
-    <>
-      <Route path="/profile" element={Profile}></Route>
-    </>
-  )
-}
 
 function App() {
 
