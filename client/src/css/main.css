@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #2c3333;
 }
 
@@ -258,27 +258,27 @@ body {
 .AboutTitle {
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-.AboutLogo {
+/* .AboutLogo {
     width: 35rem;
-    height: 35rem;
+    height: 35rem; */
     /* border-radius: 1.4rem; */
-}
+/* } */
 
-.aboutLogoDiv {
+/* .aboutLogoDiv {
     width: fit-content;
     display: block;
     margin-right: auto;
     margin-left: auto;
     padding: 0.75rem;
-    border-radius: 1.4rem;
+    border-radius: 1.4rem; */
     /* background-color: rgb(217, 208, 208); */
-    background-color: #ede1b4;
+    /* background-color: #ede1b4;
 
-}
+} */
 
-.aboutInfoDiv {
+/* .aboutInfoDiv {
     width: fit-content;
     text-align: justify;
     text-justify: auto;
@@ -286,9 +286,9 @@ body {
     margin-bottom: auto;
     margin-right: auto;
     margin-left: 3rem;
-}
+} */
 
-.aboutInfoDiv p {
+/* .aboutInfoDiv p {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -347,11 +347,11 @@ body {
 .showMsg>h2 {
     font-family: 'Mukta', sans-serif;
     font-size: 3rem;
-}
+} */
 
-.MainHeadingHome {
+/* .MainHeadingHome { */
     /* color: white; */
-    color: black;
+    /* color: black;
     display: block;
     font-family: 'Mukta', sans-serif;
     font-weight: 600;
@@ -359,23 +359,23 @@ body {
     justify-content: center;
     font-size: 2.7rem;
     user-select: none;
-}
+} */
 
 
-.MainCardDiv {
+/* .MainCardDiv {
     margin-top: 4rem;
     display: grid;
     grid-template-columns: auto auto;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-}
-.CardBody{
+} */
+/* .CardBody{
     margin-top: 1.3rem;
     padding-right: 1.1rem;
     padding-left: 1.1rem;
-}
-.SubCardDiv {
+} */
+/* .SubCardDiv {
     width: 25rem;
     grid-template-columns: auto auto;
     height: max-content;
@@ -384,26 +384,26 @@ body {
     padding: 0.4rem;
     margin-right: 4rem;
     margin-bottom: 7rem;
-}
+} */
 
-.SubCardDiv-img{
+/* .SubCardDiv-img{
     width: 24rem;
     height: 18rem;
-}
+} */
 
-.MainHomeDiv {
+/* .MainHomeDiv {
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
-}
+} */
 
-.Homelink {
+/* .Homelink {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-}
+} */
 
-.FooterDiv {
+/* .FooterDiv {
     background-color: #2c3333;
     color: white;
     position: fixed;
@@ -413,9 +413,9 @@ body {
     height: 2rem;
     font-size: 0.85rem;
     text-align: center;
-}
+} */
 
-.FooterDiv>p {
+/* .FooterDiv>p {
     align-self: center;
     margin: auto;
 }
@@ -429,8 +429,8 @@ body {
 }
 .itemInfoDiv{
     font-family: 'Mukta', sans-serif;
-}
-.MainItemDiv{
+} */
+/* .MainItemDiv{
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -730,4 +730,4 @@ body {
         margin-right: auto;
         margin-left: 3rem;
     }
-}
+} */
